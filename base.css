@@ -1,6 +1,5 @@
 /* WDD 230 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
-/* * is a wildcard referring to all elements. */
 *  { margin: 0; box-sizing: border-box; }
 body {
 font-size: 16px;
@@ -17,6 +16,14 @@ font-size: 2rem;
 text-align: center;
 border-bottom: 1px solid #bbb;
 }
+h3 {
+    border-top: 1px solid #bbb;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
 header, main, footer {
 margin: 1.25rem auto;
 padding: .5rem;
@@ -28,14 +35,18 @@ background-color: #38674D;
 color: whitesmoke;
 }
 header img {
-width: 10rem;
+width: 15rem;
 height: auto;
-float: left;
+float: center;
 padding: 5px 5px 5px 5px;
 margin-left: 15px;
-margin-bottom: 15px;
+margin-bottom: 25px;
 
 }
+nav li {
+display: inline-block;
+}
+
 footer {
 font-size: 1rem;
 }
